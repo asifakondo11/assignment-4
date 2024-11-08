@@ -1,0 +1,49 @@
+.new{
+    padding: 130px;
+    margin: 30px 175px 20px 180px;
+    color: white;
+    background-image: url(../image/happy.jpg);
+    border-radius: 10px;
+    text-align: center;
+    max-height: 300px;
+}
+
+.happy{
+    font-size: large;
+    font-weight: 500;
+}
+
+.year{
+    font: bold;
+    font-size: 70px;
+    font-weight: bold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.ful-off{
+    margin: 0px;
+}
+.off{
+    color: red;
+    text-align: center;
+    font: xx-large;
+    font-size: 70px;
+    font-weight: 900;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.deals{
+    text-align: center;
+    color:red;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font:30px;
+    font-weight: 600;
+}
+.category{
+    text-align: center;
+    color: black;
+    font-size: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.image{
+    display: flex;
+    justify-content: center;
+}
