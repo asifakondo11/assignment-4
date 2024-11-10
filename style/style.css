@@ -20,9 +20,9 @@
 }
 
 .year{
-    /* font: bold; */
-    /* font-weight: bold; */
-    font-size: 200px;
+    font: bold;
+    font-weight: bold;
+    /* font-size: 200px; */
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 .ful-off{
@@ -60,7 +60,7 @@
     margin: 30px 110px 0px 110px;
     background-image: url(../image/welcome.jpg);
     background-repeat: no-repeat;
-    background-size: 100%;
+    background-size:100%;
     height: 380px;
     background-position: center;
     /* text-align: center; */
@@ -76,7 +76,13 @@
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 .button{
-   border-radius: 0px;
+    color: white;
+    background-color: red;
+    border: none;
+    margin: 40px 0px 0px 70px;
+    padding: 10px 15px 10px 15px;
+    border-radius: 10px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 .place{
    text-align: center;
@@ -93,5 +99,60 @@
     border: none;
     padding: 5px 15px 5px 15px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.best-offer{
+    /* background-size: 80%; */
+    /* background-color: bisque; */
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    margin: 100px 0px 20px 0px;
+}
+.one-block{
+    padding: 50px 80px 0px 100px;
+}
+.two-block{
+    /* text-align: center; */
+    /* height: 50%; */
+    /* width: 80%; */
+
+    padding: 10px 00px 10px 0px;
+}
+.three-block{
+    padding: 50px 150px 0px 120px;   
+}
+.function{
+    text-align: center;
+    padding-top: 30px;
+    font-size:30px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+}
+.holiday{
+    color: red;
+    text-align: center;
+    font-size: 50px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 800;
+}
+.ecommerce{
+    text-align: center;
+}
+.discount{ 
+    text-align: center;
+    background-image: url(../image/Rectangle\ 1.jpg);
+    background-repeat: no-repeat;
+    background-size: 300px; 
+    background-position: center;
     
+} 
+.footer{
+    background-color: cadetblue;
+    height: 250px;
+    border-radius: 10px;
+    text-align: center;
+}
+.logo{ 
+    height: 80px;
+    padding-top: 20px;
 }
